@@ -27,7 +27,7 @@ An introduction
 * Static type checker
 * Analyze source code at compile time
 * Type of variable or method is known at compile time
-    * Explicitly or by use of type inference
+    * Explicitly or by use of type inference (Hindley–Milner)
 * A variable declared of a type, cannot be assigned a value of a different type (without casting)
 * Some language features cannot be checked statically (i.e downcasting)
 * Catch bugs early
@@ -177,4 +177,4 @@ names(employee, manager) // OK
 
 # That`s it
 
-https://github.com/terjebra/type-systems
+https://github.com/terjebra/typesystem
